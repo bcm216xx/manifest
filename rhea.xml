@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- remote path,branch -->
+ <remote  name="rhea"
+          fetch="https://github.com/bcm216xx"
+          revision="cm-12.1" />
+
+  <!-- device trees -->
+  <!-- rhea -->
+ <project name="android_device_samsung_rhea-common"     
+          path="device/samsung/rhea-common"    
+          remote="rhea" />
+
+  <!-- corsica -->
+ <project name="android_device_samsung_corsica"         
+          path="device/samsung/corsica"        
+          remote="rhea" />
+
+  <!-- ivoryss -->
+ <project name="android_device_samsung_ivoryss"         
+          path="device/samsung/ivoryss" 	     
+          remote="rhea" />
+
+  <!-- nevisp -->
+ <project name="android_device_samsung_nevisp"         
+          path="device/samsung/nevisp" 	     
+          remote="rhea" /> 
+ 
+  <!-- kernel source -->
+ <project name="android_kernel_rhea"                    
+          path="kernel/samsung/rhea"           
+          remote="rhea" revision="cm-13.0" />
+
+  <!-- proprietary blobs -->
+ <project name="proprietary_vendor_samsung"             
+          path="vendor/samsung"                
+          remote="rhea" />
+
+  <!-- Patches -->
+ <project name="build_tools"                           
+          path="build_tools"                 
+          remote="rhea" />
+
+  <!-- gcc 4.7 -->
+ <project name="arm-eabi-4.7"                           
+          path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7"   
+          remote="rhea" revision="master" />
+
+  <!-- cmhw -->
+ <project name="android_hardware_samsung"                
+          path="hardware/samsung"             
+          remote="rhea" />
+
+  <!-- SamsungServiceMode -->
+ <project name="android_packages_apps_SamsungServiceMode"   
+          path="packages/apps/SamsungServiceMode"  
+          remote="rhea" />
+
+</manifest>
