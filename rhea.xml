@@ -5,6 +5,9 @@
  <remote  name="rhea"
           fetch="https://github.com/bcm216xx"
           revision="cm-13.0" />
+          
+  <!-- duplicates --<        
+ <remove-project name="CyanogenMod/android_external_chromium-webview" />
 
   <!-- device trees -->
   <!-- rhea -->
@@ -56,5 +59,10 @@
  <project name="android_packages_apps_SamsungServiceMode"   
           path="packages/apps/SamsungServiceMode"  
           remote="rhea" />
-
+          
+  <!-- Chromium-webview -->
+ <project name="android_external_chromium-webview"   
+          path="external/chromium-webview"  
+          remote="rhea" />
+          
 </manifest>
