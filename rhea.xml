@@ -4,7 +4,7 @@
   <!-- remote path,branch -->
  <remote  name="rhea"
           fetch="https://github.com/bcm216xx"
-          revision="cm-12.1" />
+          revision="cm-13.0" />
 
   <!-- device trees -->
   <!-- rhea -->
