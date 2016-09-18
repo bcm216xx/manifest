@@ -6,7 +6,7 @@
           fetch="https://github.com/bcm216xx"
           revision="cm-13.0" />
           
-  <!-- duplicates --<        
+  <!-- duplicates -->        
  <remove-project name="CyanogenMod/android_external_chromium-webview" />
 
   <!-- device trees -->
