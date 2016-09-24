@@ -9,6 +9,10 @@
  <remote  name="cm"
           fetch="https://github.com/CyanogenMod"
           revision="cm-12.1" />
+          
+ <project name="manifest"     
+          path="android-rhea"
+          remote="rhea" />
 
   <!-- device trees -->
   <!-- rhea -->
