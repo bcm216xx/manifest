@@ -5,6 +5,10 @@
  <remote  name="rhea"
           fetch="https://github.com/bcm216xx"
           revision="cm-12.1" />
+    
+ <remote  name="cm"
+          fetch="https://github.com/CyanogenMod"
+          revision="cm-12.1" />
 
   <!-- device trees -->
   <!-- rhea -->
@@ -50,11 +54,11 @@
   <!-- cmhw -->
  <project name="android_hardware_samsung"                
           path="hardware/samsung"             
-          remote="rhea" />
+          remote="cm" />
 
   <!-- SamsungServiceMode -->
  <project name="android_packages_apps_SamsungServiceMode"   
           path="packages/apps/SamsungServiceMode"  
-          remote="rhea" />
+          remote="cm" />
 
 </manifest>
