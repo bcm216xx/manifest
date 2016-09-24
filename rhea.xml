@@ -12,7 +12,12 @@
           
   <!-- duplicates -->        
  <remove-project name="CyanogenMod/android_external_chromium-webview" />
-
+ 
+ <!-- rhea -->
+ <project name="manifest"     
+          path="android-rhea"    
+          remote="rhea" />
+ 
   <!-- device trees -->
   <!-- rhea -->
  <project name="android_device_samsung_rhea-common"     
