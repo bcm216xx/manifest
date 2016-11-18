@@ -59,12 +59,7 @@
  <project name="build_tools"                           
           path="build_tools"                 
           remote="rhea" />
-
-<!-- Patches -->
- <project name="build_hawaii"                           
-          path="build_hawaii"                 
-          remote="rhea" />
-
+  
   <!-- gcc 4.7 -->
  <project name="arm-eabi-4.7"                           
           path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7"   
