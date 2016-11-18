@@ -34,11 +34,21 @@
  <project name="android_device_samsung_nevisp"         
           path="device/samsung/nevisp" 	     
           remote="rhea" /> 
+
+  <!-- vivalto | hawaii -->
+ <project name="android_device_samsung_vivalto"         
+          path="device/samsung/vivalto" 	     
+          remote="rhea" />
  
   <!-- kernel source -->
  <project name="android_kernel_rhea"                    
           path="kernel/samsung/rhea"           
           remote="rhea" revision="cm-13.0" />
+
+  <!-- kernel source -->
+ <project name="android_kernel_hawaii"                    
+          path="kernel/samsung/hawaii"           
+          remote="rhea" revision="cm-12.1" />
 
   <!-- proprietary blobs -->
  <project name="proprietary_vendor_samsung"             
@@ -48,6 +58,11 @@
   <!-- Patches -->
  <project name="build_tools"                           
           path="build_tools"                 
+          remote="rhea" />
+
+<!-- Patches -->
+ <project name="build_hawaii"                           
+          path="build_hawaii"                 
           remote="rhea" />
 
   <!-- gcc 4.7 -->
