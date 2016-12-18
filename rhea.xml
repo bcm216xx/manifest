@@ -4,14 +4,14 @@
   <!-- remote path,branch -->
  <remote  name="rhea"
           fetch="https://github.com/bcm216xx"
-          revision="cm-13.0" />
+          revision="cm-14.1" />
           
  <remote  name="cm"
           fetch="https://github.com/CyanogenMod"
-          revision="cm-13.0" />   
+          revision="cm-14.1" />   
           
   <!-- duplicates -->        
- <remove-project name="CyanogenMod/android_external_chromium-webview" />
+ <remove-project name="platform/external/chromium-webview" />
  
  <!-- rhea -->
  <project name="manifest"     
@@ -47,7 +47,7 @@
   <!-- kernel source -->
  <project name="android_kernel_rhea"                    
           path="kernel/samsung/rhea"           
-          remote="rhea" revision="cm-13.0" />
+          remote="rhea" revision="cm-14.1" />
 
   <!-- proprietary blobs -->
  <project name="proprietary_vendor_samsung"             
@@ -79,5 +79,4 @@
           path="packages/apps/SamsungServiceMode"  
           remote="cm" />
           
-  
 </manifest>
