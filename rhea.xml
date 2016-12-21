@@ -47,7 +47,7 @@
   <!-- kernel source -->
  <project name="android_kernel_rhea"                    
           path="kernel/samsung/rhea"           
-          remote="rhea" revision="cm-14.1" />
+          remote="rhea"/>
 
   <!-- proprietary blobs -->
  <project name="proprietary_vendor_samsung"             
