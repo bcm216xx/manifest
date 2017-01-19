@@ -7,11 +7,11 @@
           revision="cm-13.0" />
           
  <remote  name="cm"
-          fetch="https://github.com/CyanogenMod"
+          fetch="https://github.com/LineageOS"
           revision="cm-13.0" />   
           
   <!-- duplicates -->        
- <remove-project name="CyanogenMod/android_external_chromium-webview" />
+ <remove-project name="LineageOS/android_external_chromium-webview" />
  
  <!-- rhea -->
  <project name="manifest"     
