@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Manifest -->
+  <project path="manifest" name="bcm216xx/manifest" remote="github" revision="nougat-caf" />
+
+  <!-- Build repositories -->
+  <project path="build" name="bcm216xx/build" remote="github" revision="nougat-caf" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <!-- frameworks -->
+  <project name="bcm216xx/frameworks_av" path="frameworks/av" remote="github" revision="nougat-caf" />
+  <project name="bcm216xx/frameworks_native" path="frameworks/native" remote="github" revision="nougat-caf" />
+
+  <!-- Hardware -->
+  <project path="device/qcom/sepolicy" name="bcm216xx/device_qcom_sepolicy" remote="github" revision="nougat-caf" />
+
+  <!-- vendor -->
+  <project path="vendor/pa" name="bcm216xx/vendor_pa" remote="github" revision="nougat-caf" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+
+</manifest>
